@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-font: white;
+}
+
+body {
+    background-color: #000033;
+    width: 100vw;
+    height: 100vh;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    max-width: 300px;
+    background-color: #00264d;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: var(--main-font);
+    font-size: 1rem;
+    margin: 15px auto;
+}
+h1:hover {
+    color: #00e6e6;
+}
+.equilibrium {
+    max-width: 260px;
+    border-radius: 20px;
+}
+.about > p {
+    margin: 10px 0 30px 0;
+    color: #2952a3;
+    font-size: .9;
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+}
+.eth {
+    display: flex;
+    padding: 10px 10px 10px 0;
+    color: #00e6e6
+}
+.eth > p {
+    color: #00e6e6;
+}
+.clock {
+    display: flex;
+    padding: 10px 0px;
+    color: #2952a3;
+}
+.eth > img {
+    margin-right: 10px;
+}
+.clock > img {
+    margin-right: 10px;
+}
+.profile {
+    max-width: 20px;
+}
+.card-footer {
+    margin: 10px 0;
+    display: flex;
+}
+.card-footer > img {
+    margin-right: 10px;
+}
+hr {
+    margin: 10px;
+}
+p {
+    color: #2952a3;
+}
+span {
+    color: white;
+    font-size: .9rem;
+}
+.attribution {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    font-size: .8rem;
+    color: #2952a3;
+}
+.done {
+    display: none;
+}
+.attribution:hover .done {
+    display: block;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+span:hover {
+    color: #00e6e6;
+}
